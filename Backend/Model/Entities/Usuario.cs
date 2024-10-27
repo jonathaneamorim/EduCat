@@ -26,33 +26,6 @@ namespace Model.Entities
         public string? NomePai { get; set; }
         public string? NomeMae { get; set; }
         public Endereco? Endereco { get; set; }
-
         public Usuario() { }
-
-        public Usuario(int id, ETipoUsuario tipoUsuario, int matricula, string nomeCivil, string? nomeSocial, string nomeUsuario, string email, string senha, string cPF, string? rG, EGenero? genero, string? naturalidade, ERaca? raca, ETipoSanguineo? tipoSanguineo, string? nacionalidade, EEstadoCivil? estadoCivil, DateTime? dataNascimento, ENivel? nivel, string? phone, string? nomePai, string? nomeMae, Endereco? endereco)
-        {
-            Id = id;
-            TipoUsuario = tipoUsuario;
-            Matricula = matricula;
-            NomeCivil = nomeCivil;
-            NomeSocial = nomeSocial;
-            NomeUsuario = nomeUsuario;
-            Email = email;
-            Senha = senha;
-            CPF = cPF;
-            RG = rG;
-            Genero = genero;
-            Naturalidade = naturalidade;
-            Raca = raca;
-            TipoSanguineo = tipoSanguineo;
-            Nacionalidade = nacionalidade;
-            EstadoCivil = estadoCivil;
-            DataNascimento = dataNascimento;
-            Nivel = nivel;
-            Telefone = phone;
-            NomePai = nomePai;
-            NomeMae = nomeMae;
-            Endereco = endereco;
-        }
     }
 }

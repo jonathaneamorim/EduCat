@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Model.Migrations
 {
     [DbContext(typeof(EduCatContext))]
-    [Migration("20241027045252_CreateTableUsuario")]
-    partial class CreateTableUsuario
+    [Migration("20241027052004_CriacaoTabelaUsuario")]
+    partial class CriacaoTabelaUsuario
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
