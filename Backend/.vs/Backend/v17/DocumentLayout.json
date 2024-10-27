@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\git\\EduCat\\EduCat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9EEF7E0E-E73C-46F9-A2E5-6689E6446B8C}|EduCat\\EduCat.csproj|c:\\git\\educat\\educat\\educat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EEF7E0E-E73C-46F9-A2E5-6689E6446B8C}|EduCat\\EduCat.csproj|solutionrelative:educat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\git\\EduCat\\EduCat\\EduCat\\Program.cs",
+              "RelativeDocumentMoniker": "EduCat\\Program.cs",
+              "ToolTip": "C:\\git\\EduCat\\EduCat\\EduCat\\Program.cs",
+              "RelativeToolTip": "EduCat\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T03:00:01.951Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
