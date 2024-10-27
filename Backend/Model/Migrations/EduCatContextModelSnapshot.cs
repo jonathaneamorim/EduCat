@@ -98,7 +98,7 @@ namespace Model.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("Usuario");
                 });
 
             modelBuilder.Entity("Model.Entities.Usuario", b =>
@@ -149,7 +149,7 @@ namespace Model.Migrations
 
                             b1.HasKey("UsuarioId");
 
-                            b1.ToTable("Usuarios");
+                            b1.ToTable("Usuario");
 
                             b1.WithOwner()
                                 .HasForeignKey("UsuarioId");

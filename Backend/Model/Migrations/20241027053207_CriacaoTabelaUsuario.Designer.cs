@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Model.Migrations
 {
     [DbContext(typeof(EduCatContext))]
-    [Migration("20241027052004_CriacaoTabelaUsuario")]
+    [Migration("20241027053207_CriacaoTabelaUsuario")]
     partial class CriacaoTabelaUsuario
     {
         /// <inheritdoc />
@@ -101,7 +101,7 @@ namespace Model.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuarios");
+                    b.ToTable("Usuario");
                 });
 
             modelBuilder.Entity("Model.Entities.Usuario", b =>
@@ -152,7 +152,7 @@ namespace Model.Migrations
 
                             b1.HasKey("UsuarioId");
 
-                            b1.ToTable("Usuarios");
+                            b1.ToTable("Usuario");
 
                             b1.WithOwner()
                                 .HasForeignKey("UsuarioId");

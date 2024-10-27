@@ -9,7 +9,7 @@ namespace Model.Context
         public EduCatContext(DbContextOptions<EduCatContext> options) : base(options) { }
 
         // Inserindo as entidades que virarão tabela
-        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
 
         // Criando o método obrigatório da interface DbContext
         protected override void OnModelCreating(ModelBuilder modelBuilder)
