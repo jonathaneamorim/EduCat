@@ -10,30 +10,42 @@
 </div>
 
 ## ⚙️ Processos Principais
+
 Cadastros de professor e aluno serão feitos pelo usuário administrador
-1. **Professor**
+
+1. **Curso**
+    - Cada curso pode conter várias disciplinas
+
+2. **Disciplina**
+    - Criada dentro de um curso
+    - Pode ter várias turmas associadas
+
+3. **Turma**
+    - Associada a uma disciplina
+    - É a instância da disciplina oferecida em um determinado período
+    - Vincula professor responsável
+    - Matricula alunos participantes do período
+
+4. **Professor**
     - Ver suas informações pessoais
-    - Ver disciplinas a que está vinculado
+    - Ver turmas a que está vinculado
     - Lançar notas
     - Criar atividades
         - Ver atividades entregues
-    - Adicionar conteúdo nas disciplinas em que leciona
+    - Adicionar conteúdo nas turmas em que leciona
         - Adicionar seções na disciplina
         - Adicionar avaliações e aplicar pelo sistema
         - Adicionar arquivos anexos (PDFs, imagens)
-        - Adicionar links de vídeos que possam ser assistidos sem sair da plataformaS
+        - Adicionar links de vídeos que possam ser assistidos sem sair da plataforma
 
-2. **Aluno**
+5. **Aluno**
     - Ver suas informações pessoais
-    - Ver disciplinas a que está vinculado
+    - Ver turmas a que está vinculado
         - Ver atividades
         - Entregar atividades
     - Ver notas
 
-3. **Disciplina**
-    - Detalhes da disciplina
-    - Vincular professor responsável
-    - Matricular alunos participantes
-    1.  **Atividades**
-        - Professores adicionam data de entrega
-        - Alunos realizam a entrega das atividades
+6. **Atividades**
+    - Criadas dentro de uma turma
+    - Professores adicionam data de entrega
+    - Alunos realizam a entrega das atividades
